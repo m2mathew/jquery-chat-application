@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Chat Application</title>
+    <link rel="stylesheet" type="text/css" href="/styles/main.sass.css">
+</head>
+<body>
+    <header>
+        <h1><span id="title-a">Welcome to</span><span id="title-b"> jQuery Chat</span></h1>
+    </header>
+
+    <section id="message-block">
+        <h2>Messages</h2>
+        <div id="chat-box"></div><span id="time-stamp"></span>
+        <button id="delete-button">Delete<br>messages</button>
+    </section>
+
+    <form>
+        <button id="submit-button">&#43;</button>
+        <input type="text" id="chat-input" placeholder="Your message here">
+    </form>
+
+    <footer>
+        <p>from Mike_Mathew c/o The Iron Yard in Austin</p>
+    </footer>
+
+    <script type="text/javascript" src='/node_modules/moment/min/moment-with-locales.min.js'></script>
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/main.js"></script>
+</body>
+</html>
