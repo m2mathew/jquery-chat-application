@@ -12,7 +12,6 @@ $(document).ready(function () {
     var $chatBox = $('#chat-box');
     var $deleteButton = $('#delete-button');
     var $timeStamp = $('#time-stamp');
-    var now = moment().format('MMMM Do YYYY, h:mm:ss a');
 
     // create function
     $form.submit(function (e) {
@@ -20,6 +19,7 @@ $(document).ready(function () {
         console.log(now);
         // get input from the array
         var newChat = $chatInput.val();
+        var now = moment().format('MMMM Do YYYY, h:mm:ss a');
 
         // empty the input box
         $chatInput.val('');

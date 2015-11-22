@@ -48,8 +48,11 @@ form {
 
 section {
     margin-top: 0;
-    // height: 45em;
     background-color: #38B28D;
+
+    #scroll-box {
+        overflow-y: scroll;
+    }
 
     h2 {
         margin-top: 0;
@@ -64,6 +67,7 @@ section {
         max-width: 75%;
         padding: 0.5em;
         color: #111;
+
     }
 
     span {
